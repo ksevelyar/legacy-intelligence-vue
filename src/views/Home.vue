@@ -1,18 +1,49 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <pre class="hello-world">
+    <a href="https://github.com/ksevelyar">
+    .     .       .  .   . .   .   . .    +  .
+      .     .  :     .    .. :. .___---------___.
+           .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+        .  :       .  .  .:../:            . .^  :.:\.
+            .   . :: +. :.:/: .   .    .        . . .:\
+     .  :    .     . _ :::/:               .  ^ .  . .:\
+      .. . .   . - : :.:./.                        .  .:\
+      .      .     . :..|:                    .  .  ^. .:|
+        .       . : : ..||        .                . . !:|
+      .     . . . ::. ::\(                           . :)/
+     .   .     : . : .:.|<span class="eye">. ######              .#######</span>::|
+      :.. .  :-  : .:  ::|<span class="eye">.#######           ..########</span>:|
+     .  .  .  ..  .  .. :\ <span class="eye">########          :########</span> :/
+      .        .+ :: : -.:\ <span class="eye">########       . ########</span>.:/
+        .  .+   . . . . :.:\. <span class="eye">#######       #######</span>..:/
+          :: . . . . ::.:..:.\           .   .   ..:/
+       .   .   .  .. :  -::::.\.       | |     . .:/
+          .  :  .  .  .-:.":.::.\             ..:/
+     .      -.   . . . .: .:::.:.\.           .:/
+    .   .   .  :      : ....::_:..:\   ___.  :/
+       .   .  .   .:. .. .  .: :.:.:\       :/
+         +   .   .   : . ::. :.:. .:.|\  .:/|
+         .         +   .  .  ...:: ..|  --.:|
+    .      . . .   .  .  . ... :..:.."(  ..)"
+     .   .       .      :  .   .: ::/  .  .::\
+    </a>
+  </pre>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue"
+<style scoped lang="sass">
 
-export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
-}
-</script>
+a
+  text-decoration: none
+  color: #54C6B5
+  font-size: 0.9rem
+
+@media (max-width: 600px)
+  a
+    font-size: 8px
+
+.eye
+  transition: all 0.5s linear
+
+a:hover .eye
+  color: #9E3150
+</style>
