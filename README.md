@@ -1,6 +1,6 @@
 # legacy-intelligence-vue
 
-![Build](https://github.com/ksevelyar/legacy-intelligence-vue/workflows/Build/badge.svg)
+![](https://github.com/ksevelyar/legacy-intelligence-vue/workflows/Build/)
 
 ## Project setup
 ```
