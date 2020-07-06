@@ -15,7 +15,7 @@ body
   display: flex
   align-items: center
   box-sizing: border-box
-  padding: 1rem
+  padding: 0 1rem
   background: #19151D
   margin: 0
 

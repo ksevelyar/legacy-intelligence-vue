@@ -26,8 +26,6 @@ html
     font-size: 2rem
 
 @media (min-width: 1600px)
-  html
-    font-size: 18px
   .post-link
     font-size: 3rem
 </style>
