@@ -1,11 +1,5 @@
 <template lang="pug">
-.app
-  //#nav
-    router-link(to='/') Home
-    | |
-
-    router-link(to='/about') About
-  router-view.
+router-view.
 </template>
 
 <style lang="sass">
@@ -17,16 +11,16 @@
   src: url("/iosevka/iosevka-light.woff2") format("woff2")
 
 body
-  margin: 0
-
-.app
-  background: #19151D
   min-height: 100vh
   display: flex
   align-items: center
-  justify-content: center
-  margin: 0
   box-sizing: border-box
+  padding: 1rem
+  background: #19151D
+  margin: 0
+
+#app
+  margin: auto
 
 code[class*="language-"]
   color: #ccc

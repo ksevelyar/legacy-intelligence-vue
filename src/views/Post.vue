@@ -19,4 +19,5 @@ export default {
 <style lang="sass">
 .post
   color: white
+  margin: auto
 </style>
