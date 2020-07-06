@@ -18,8 +18,6 @@ function mdRoutes() {
   })
 }
 
-console.log(mdRoutes().concat(routes))
-
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes: mdRoutes().concat(routes)
