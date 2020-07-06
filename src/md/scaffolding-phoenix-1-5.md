@@ -1,3 +1,10 @@
+---
+title: Scaffolding Phoenix 1.5 JSON API
+tags:
+  - phoenix
+---
+
+
 # Scaffolding Phoenix 1.5 JSON API
 
 ## Create app

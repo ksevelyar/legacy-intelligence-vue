@@ -24,10 +24,10 @@ html
 @media (min-width: 700px)
   .post-link
     font-size: 2rem
-  html
-    font-size: 18px
 
 @media (min-width: 1600px)
+  html
+    font-size: 18px
   .post-link
     font-size: 3rem
 </style>
