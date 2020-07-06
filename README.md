@@ -6,7 +6,7 @@
 
 - Pre-rendered pages with [`prerender-spa-plugin`](https://github.com/chrisvfritz/prerender-spa-plugin)
 - Auto load `.md` files using [`frontmatter-markdown-loader`](https://github.com/hmsk/frontmatter-markdown-loader) and [`require.context`](https://webpack.js.org/guides/dependency-management/#requirecontext)
-- Syntax Highlight with [`Prism`](https://github.com/PrismJS/prism)
+- Syntax highlight with [`Prism`](https://github.com/PrismJS/prism)
 
 ## Project setup
 
