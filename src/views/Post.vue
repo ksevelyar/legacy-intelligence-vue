@@ -10,7 +10,7 @@ export default {
     }
   },
   created() {
-    this.md = require(`@/md${this.$route.path}.md`)
+    this.md = require(`@/md${this.$route.path.replace(/\/$/, "")}.md`)
     document.title = this.md.attributes.title
   }
 }
