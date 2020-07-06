@@ -20,7 +20,7 @@ body
   margin: 0
 
 .app
-  background: #111
+  background: #19151D
   min-height: 100vh
   display: flex
   align-items: center
@@ -68,7 +68,7 @@ pre[class*="language-"]
   overflow: auto
 
 :not(pre) > code[class*="language-"], pre[class*="language-"]
-  background: #2d2d2d
+  background: #19151D
 
 :not(pre) > code[class*="language-"]
   padding: .1em

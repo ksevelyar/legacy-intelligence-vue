@@ -10,9 +10,9 @@ tags:
 
 The plugin downloads dynamically linked Chrome. It's not gonna work in NixOS, but it's possible to install Chrome via `shell.nix`:
 
-`nvim shell.nix`
+## `nvim shell.nix`
 
-```
+```nix
 with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "node-env";
@@ -23,14 +23,9 @@ stdenv.mkDerivation {
 }
 ```
 
-```
-echo $GOOGLE_CHROME_BIN
-/nix/store/y398naycdahwxcr7kg80kqg6smb94qn8-google-chrome-83.0.4103.116/bin/google-chrome-stable
-```
+Let's use the ENV varible inside Webpack.
 
-Let's use the ENV varible inside Webpack:
-
-`nvim vue.config.js`
+## `nvim vue.config.js`
 
 ```javascript
 const path = require("path")
