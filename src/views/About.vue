@@ -9,9 +9,14 @@ export default {
   computed: {
     html() {
       return hw.html
-    },
-    title() {
-      return hw.attributes.title
+    }
+  },
+  created() {
+    this.setTitle(hw.attributes.title)
+  },
+  methods: {
+    setTitle(title) {
+      document.title = title
     }
   }
 }
