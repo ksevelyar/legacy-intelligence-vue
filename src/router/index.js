@@ -1,25 +1,28 @@
 import { createRouter, createWebHistory } from "vue-router"
 import Home from "../views/Home.vue"
+import Post from "../views/Post.vue"
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home
-  },
-  {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ "../views/About.vue")
   }
 ]
 
+function mdRoutes() {
+  const context = require.context("@/md", true)
+  return context.keys().map(mdFile => {
+    const path = `${mdFile.replace(".", "").replace(".md", "")}`
+    return { path, component: Post }
+  })
+}
+
+console.log(mdRoutes().concat(routes))
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes: mdRoutes().concat(routes)
 })
 
 export default router
