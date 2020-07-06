@@ -5,6 +5,7 @@
 ## Features
 
 - Pre-rendered pages with [`prerender-spa-plugin`](https://github.com/chrisvfritz/prerender-spa-plugin)
+- load `.md` files using [`frontmatter-markdown-loader`](https://github.com/hmsk/frontmatter-markdown-loader)
 
 ## Project setup
 
