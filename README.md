@@ -1,6 +1,4 @@
-# legacy-intelligence
-
-[![CI](https://github.com/ksevelyar/legacy-intelligence-vue/workflows/CI/badge.svg)](https://github.com/ksevelyar/legacy-intelligence-vue/actions)
+# legacy-intelligence [![CI](https://github.com/ksevelyar/legacy-intelligence-vue/workflows/CI/badge.svg)](https://github.com/ksevelyar/legacy-intelligence-vue/actions)
 
 ## Features
 
