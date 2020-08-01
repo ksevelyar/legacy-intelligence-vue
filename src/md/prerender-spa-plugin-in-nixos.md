@@ -6,7 +6,7 @@ tags:
   - js
 ---
 
-# `prerender-spa-plugin` in NixOS
+# prerender-spa-plugin in NixOS
 
 The plugin downloads dynamically linked Chrome. It's not gonna work in NixOS, but it's possible to install Chrome via `shell.nix`:
 

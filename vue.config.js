@@ -24,7 +24,12 @@ module.exports = {
         ? [
             new PrerenderSPAPlugin({
               staticDir: path.join(__dirname, "dist"),
-              routes: ["/", "/prerender-spa-plugin-in-nixos"],
+              routes: [
+                "/",
+                "/scaffolding-phoenix-1-5",
+                "/prerender-spa-plugin-in-nixos",
+                "/ci-for-vue-via-github-actions"
+              ],
               renderer: new Renderer({
                 executablePath: process.env.GOOGLE_CHROME_BIN
               })
